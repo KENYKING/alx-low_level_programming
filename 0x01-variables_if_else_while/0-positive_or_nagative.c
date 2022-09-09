@@ -2,20 +2,17 @@
 #include <time.h>
 #include <stdio.h>
 
-
 /* more headers goes there */
 
 
 
-/* betty style doc for function main goes there */ 
+/* betty style doc for function main goes there */
 
 /**
-Description: using the main function
-this program prints "Programming is positve,zero, or negative
-return:0
-*/
-
-
+ * Description: using the main function
+ * this program prints "Programming is positive,zero, or nagative
+ * Return: 0
+ */
 
 int main(void)
 
@@ -34,14 +31,13 @@ int main(void)
 				{
 					printf("%d, is positive\n",n);
 				}
-				
 				else if(n == 0)
 				{
-				       printf("%d, is zero\n",n);
+					printf("%d, is zero\n",n);
 				}
 				else if(n < 0)
 				{
-					printf("%d, is nagative\n",n);
+					printf("%d, is negative\n",n);
 
 					return (0);
 
