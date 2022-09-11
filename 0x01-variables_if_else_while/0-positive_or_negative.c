@@ -3,28 +3,20 @@
 #include <stdio.h>
 
 /**
- * main- Entry point
- *
- * Return: 0
+* main- prints all single digit numbers of base
+*
+* 10 starting from 0, followed by new line
+*
+* Return: Always 0 (success)
 */
 int main(void)
 {
- int n;
+	int n;
 
- srand(time(0));
- n = rand() - RAND_MAX / 2;
- /* your code goes there */
-if (n > 0)
-{
-    printf("%d is positive\n",n);
-}
-else if (n == 0)
-{
-    printf("%d is zero\n",n);
-}
-else if (n < 0)
-{
-    printf("%d is negative\n",n);
-}
-return (0);
+	for (n = 0; n < 10; n++)
+	{
+		printf("%d", n);
+	}
+	printf("\n");
+	return (0);
 }
