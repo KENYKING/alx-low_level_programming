@@ -3,20 +3,18 @@
 #include <stdio.h>
 
 /**
-* main- prints all single digit numbers of base
-*
-* 10 starting from 0, followed by new line
+* main- Entry point
 *
 * Return: Always 0 (success)
 */
 int main(void)
 {
 	int n;
-
-	for (n = 0; n < 10; n++)
-	{
-		printf("%d", n);
-	}
-	printf("\n");
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n == 0)
+		printf("%d is zero\n", n);
+	else
+		printf("%d is negative\n", n);
 	return (0);
 }
