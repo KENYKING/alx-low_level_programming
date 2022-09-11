@@ -10,7 +10,6 @@
  */ 
 
 /* betty style doc for function main goes there */
-
 int main(void)
 {
 
@@ -27,7 +26,8 @@ int main(void)
 				else if (last_d == 0)
 					printf("Last digit of %d is %d and is 0\n", n, last_d);
 				else
-					printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_d);
+					printf("Last digit of %d is %d and is less than 6 and not 0\n", n, la                                     st_d);
+				
 				return (0);
 
 }
