@@ -10,7 +10,8 @@
 int main(void)
 {
 	int n;
-	n = 0;
+
+	n = 5;
 
 	if (n > 0)
 		printf("%d is positive\n", n);
