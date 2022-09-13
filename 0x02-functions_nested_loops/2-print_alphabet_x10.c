@@ -1,4 +1,4 @@
-#include "main.hi"
+#include "main.h"
 
 /**
 * print_alphabet - that runs 10 times
