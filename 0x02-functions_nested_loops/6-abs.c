@@ -5,7 +5,7 @@
 * @c: int to be use for arguement of the function
 * Return: 0
 */
-int _abs(int)
+int _abs(int c)
 {
 	if (c > 0 || c == 0)
 	{
@@ -13,4 +13,4 @@ int _abs(int)
 	}
 	else
 	return (c * -1);
-}	
+}
