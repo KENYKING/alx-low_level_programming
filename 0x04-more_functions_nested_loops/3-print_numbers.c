@@ -9,11 +9,12 @@
 
 void print_numbers(void)
 {
-	int n;
+	char c = '0';
 
-	for (n = 48; n < 58; n++)
+	while (c <= '9')
 	{
-		putcher(n);
+		_putchar(c);
+		c++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
