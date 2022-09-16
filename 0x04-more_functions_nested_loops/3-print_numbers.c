@@ -4,7 +4,7 @@
  * print_numbers - function that print number from 
  * 0 to 9
  * 
- * Return: returns nothing
+ * Return: Always return 0
  */
 
 void print_numbers(void)
@@ -15,5 +15,5 @@ void print_numbers(void)
 	{
 		putcher(n);
 	}
-	putchar(10);
+	putchar('\n');
 }
