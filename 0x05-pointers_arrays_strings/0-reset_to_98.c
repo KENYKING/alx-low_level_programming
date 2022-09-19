@@ -8,10 +8,12 @@
 */
 void reset_to_98(int *n)
 {
+	int n;
 	int *p;
 
-	p = 98;
-	print("Value of 'p' : %d\n", *p);
-
+	n = 98;
+	p = &n;
+	_putchar("%d\n", *p);
+	
 	return (0);
 }
