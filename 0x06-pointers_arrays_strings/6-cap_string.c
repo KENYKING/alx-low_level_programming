@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
-* cap_strin - capitalizes all words of a string
-* @s: input string
+* cap_string - capitalizes all words of a string
+* @str: The string to be capitalized
 * Return: the pointer to dest.
 */
 char *cap_string(char *str)
